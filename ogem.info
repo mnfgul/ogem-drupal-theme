@@ -1,0 +1,44 @@
+name = OGEM
+description = ODTU OGEM Theme
+package = Core
+version = 1.0
+core = 7.x
+
+stylesheets[all][] = css/bootstrap/bootstrap.min.css
+stylesheets[all][] = css/animate/animate.css
+stylesheets[all][] = css/hover-css/hover-min.css
+stylesheets[all][] = css/owl-carousel/owl.carousel.css
+stylesheets[all][] = css/owl-carousel/owl.theme.css
+stylesheets[all][] = css/owl-carousel/owl.transitions.css
+
+stylesheets[all][] = css/mixins.css
+stylesheets[all][] = css/ogem.css
+stylesheets[all][] = css/responsive.css
+
+;Scripts
+scripts[] = js/jquery-2.1.3.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/owl.carousel.min.js
+scripts[] = js/ogem.js
+
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+; Added by Caniz on 11.07.2013
+regions[lang_switcher]  = Language Switcher
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+;features[] = node_user_picture
+;features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
